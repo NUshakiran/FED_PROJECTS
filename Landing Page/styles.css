@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #d10a0a;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #hero {
+    background-image: url("/img4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  section {
+    padding: 80px 0;
+  }
+  .bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  
+  /*.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+   
+  }
+  
+  .container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .container p {
+    font-size: 1.1rem;
+  }
+  
+  .container ul {
+    list-style: disc;
+    padding-left: 20px;
+  }*/
+  .card{
+    cursor: pointer;
+    clip-rule: inherit;
+}
+.card:hover{
+    background-color: hsl(0, 96%, 42%);
+    border: 5px solid #9acd32;
+}
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 5px solid yellowgreen;
+}
+.card-img-top{
+    height:50vh;
+}
+ footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
