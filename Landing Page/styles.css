@@ -29,7 +29,7 @@ body {
   }
   
   #hero {
-    background-image: url("/img4.jpg");
+    background-image: url("./img4.jpg");
     background-size: cover;
     background-position: center;
     height: 700px;
